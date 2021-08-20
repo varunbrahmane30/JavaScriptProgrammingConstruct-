@@ -2,8 +2,8 @@
 const prompt = require("prompt-sync")();
 
 const a = prompt("Enter Number 1 :");
-const b = prompt("Enter Number 1 :"); 
-const c = prompt("Enter Number 1 :");
+const b = prompt("Enter Number 2 :"); 
+const c = prompt("Enter Number 3 :");
 
 a_value= ((a + b) * c)
 b_value= (a % (b + c)) 
