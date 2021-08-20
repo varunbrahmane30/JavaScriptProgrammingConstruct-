@@ -1,6 +1,11 @@
+// variables declaration
 let min = 999;
 let max = 100;
+
+
 console.log("Five Random Numbers are : ")
+
+// implementation of code to get a max number.
 for ( var i = 1; i<=5; i++) {
     let randomNumber= Math.floor(Math.random()*900)+100;
     console.log(randomNumber);
